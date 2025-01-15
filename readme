@@ -38,10 +38,10 @@ If you encounter file reading errors, ensure the following:
 
 1. **File Paths:**
    - Verify that the paths to the CSV files are correct.
-    - Check lines 31, 32, and 33 in the `Main` class for file paths.
-    - Ensure the file paths are correct for your operating system:
-      - **Linux/MacOS:** Use forward slashes (`/`) in the file paths.
-      - **Windows:** Use double backslashes (`\\`) in the file paths.
+   - Check lines 31, 32, and 33 in the `Main` class for file paths.
+   - Ensure the file paths are correct for your operating system:
+     - **Linux/MacOS:** Use forward slashes (`/`) in the file paths.
+     - **Windows:** Use double backslashes (`\\`) in the file paths.
 
     ```java
     // File Paths
@@ -60,7 +60,7 @@ If you encounter file reading errors, ensure the following:
 
 ## Author
 
-This project was developed by Abdullah "Mirliva" GÜNDÜZ.
+This project was developed by Abdullah "Mirliva" GÜNDÜZ.  
 https://github.com/MrMirliva
 
 ## License
