@@ -169,7 +169,7 @@ public class Main {
 
         } catch (FileNotFoundException e) {
             System.out.println("The nodes file was not found.");
-            System.out.println("");
+            System.out.println("Please check read the README");
             e.printStackTrace();
         } catch (IOException e) {
             System.out.println("An I/O error occurred while reading the nodes file.");
@@ -198,6 +198,7 @@ public class Main {
 
         }  catch (FileNotFoundException e) {
             System.out.println("The links file was not found.");
+            System.out.println("Please check read the README");
             e.printStackTrace();
         } catch (IOException e) {
             System.out.println("An I/O error occurred while reading the links file.");
@@ -258,6 +259,7 @@ public class Main {
 
         } catch (FileNotFoundException e) {
             System.out.println("The nodes file was not found.");
+            System.out.println("Please check read the README");
             e.printStackTrace();
         } catch (IOException e) {
             System.out.println("An I/O error occurred while reading the nodes file.");
@@ -347,6 +349,11 @@ public class Main {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath))) {
             writer.write(convertToStringForSubTree(tree.getRoot()));
+        } catch(FileNotFoundException e) {
+            System.out.println("The output file was not found.");
+            System.out.println("Please check read the README");
+        } catch (IOException e) {
+            System.out.println("An I/O error occurred while writing the output file.");
         } catch (NumberFormatException e) {
             System.out.println("Invalid input. Please enter a valid number.");
         } catch (NullPointerException e) {
