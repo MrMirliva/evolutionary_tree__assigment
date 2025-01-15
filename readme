@@ -10,7 +10,7 @@ This project constructs and manipulates an evolutionary tree using data from CSV
 
 1. **Clone the repository:**
     ```sh
-    https://github.com/MrMirliva/tree_of_life_assigment.git
+    https://github.com/MrMirliva/evolutionary_tree_assigment.git
     cd evolutionary-tree
     ```
 
